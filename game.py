@@ -1,4 +1,6 @@
-comp_number = 4
+from random import randint
+
+comp_number = randint(1, 10)
 user_lifes = 3
 while user_lifes > 0:
     user_lifes -= 1
